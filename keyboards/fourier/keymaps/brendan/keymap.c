@@ -22,6 +22,7 @@ enum custom_keycodes {
 #define XXXXXXX KC_NO
 #define KC_FN1 MO(_FN1)
 #define KC_FN2 MO(_FN2)
+#define KC_FN3 MO(_FN3)
 #define KC_SPFN1 LT(_FN1, KC_SPACE)
 #define KC_SPFN2 LT(_FN2, KC_SPACE)
 #define KC_BSFN1 LT(_FN1, KC_BSPC)
@@ -73,9 +74,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  //|----`----`----`----`----`----|----`----`----`----`----`----`----|
          ,    ,    ,VOLD,VOLU,    ,    ,LEFT,DOWN,RGHT,    ,        ,
  //|-----`----`----`----`----`----|----`----`----`----`----`--------|
-           , F1 , F2 , F3 , F4 , F5 , F6 , F7 , F8 , F9 , F10 ,      ,
+           , F1 , F2 , F3 , F4 , F5 , F6 , F7 , F8 , F9 , F10 ,     ,
  //|-------`----`----`----`----`----|----`----`----`----`----`------|
-         ,    ,     ,    ,        ,        ,  F11 ,  F12 ,     ,
+         ,    ,     ,    ,        ,        , F11 , F12 ,     ,
  //`-----+----+-----+----+--------|--------+-----+-----+-----+------'
   )
 
